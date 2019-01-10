@@ -1,0 +1,6 @@
+[submodule "spdlog"]
+	path = spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "src/nuklear"]
+	path = src/nuklear
+	url = https://github.com/vurtun/nuklear.git
