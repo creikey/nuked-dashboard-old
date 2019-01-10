@@ -1,3 +1,9 @@
+# Application file
+nuked-dashboard
+
+# Logging files
+*.log
+
 # Prerequisites
 *.d
 
