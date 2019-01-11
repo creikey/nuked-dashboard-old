@@ -1,0 +1,5 @@
+env = Environment(CPPPATH='nuklear/:spdlog/include/:.',
+                  LIBS=['sfml-window', 'sfml-system', 'dl',
+                        'pthread', 'udev', 'GL', 'X11', 'Xrandr'])
+env.Program('nuked-dashboard', [Glob('*.cpp'), Glob('*.c')],
+            )
